@@ -1,0 +1,34 @@
+main {
+    background-image: url(../images/main_bg.jpg);
+
+}
+// ---------------------- section-1 --------------------------
+.section-1{
+    .paragraphe{
+        width: 60%;
+    }
+}
+
+// ---------------------- end section-1 --------------------------
+@media (max-width: 426px) {
+   .section-1{
+    .titre{
+        img{
+            width: 50%;
+        }
+    }
+    .images{
+        img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .paragraphe{
+        width: 80%;
+    }
+
+
+   }
+    
+}
+// end media telephone
