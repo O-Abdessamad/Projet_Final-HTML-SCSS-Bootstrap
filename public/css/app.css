@@ -20181,12 +20181,19 @@ main {
   background-image: url(../images/main_bg.jpg);
 }
 
-.section-1 .paragraphe {
+.section-1 .paragraphe,
+.section-3 .paragraphe {
   width: 60%;
 }
 
 .section-2 {
   background-image: url(../images/team_background.jpg);
+}
+
+.section-3 .image-forme {
+  background-image: url(../images/book_table_bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .section-4 {
@@ -20200,14 +20207,26 @@ main {
 }
 
 @media (min-width: 2560px) {
-  .section-1 .titre h2, .section-1 .titre .h2 {
+  .section-1 .titre h2, .section-1 .titre .h2,
+  .section-3 .titre h2,
+  .section-3 .titre .h2 {
     font-size: 60px;
   }
-  .section-1 .images img {
+  .section-1 .images,
+  .section-3 .images {
+    margin-top: 80px !important;
+  }
+  .section-1 .images img,
+  .section-3 .images img {
     width: 200px;
     height: 200px;
   }
-  .section-1 .paragraphe {
+  .section-1 .paragraphe,
+  .section-3 .paragraphe {
+    font-size: 30px;
+  }
+  .section-1 .image-forme p,
+  .section-3 .image-forme p {
     font-size: 30px;
   }
   .section-2 .titre h2, .section-2 .titre .h2 {
@@ -20246,14 +20265,17 @@ main {
   }
 }
 @media (max-width: 426px) {
-  .section-1 .titre img {
+  .section-1 .titre img,
+  .section-3 .titre img {
     width: 100%;
   }
-  .section-1 .images img {
+  .section-1 .images img,
+  .section-3 .images img {
     width: 80px;
     height: 80px;
   }
-  .section-1 .paragraphe {
+  .section-1 .paragraphe,
+  .section-3 .paragraphe {
     width: 80%;
   }
   .section-2 .titre img {

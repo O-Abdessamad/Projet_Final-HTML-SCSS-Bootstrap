@@ -2,179 +2,229 @@ main {
     background-image: url(../images/main_bg.jpg);
 
 }
+
 // ---------------------- section-1 --------------------------
-.section-1{
-    .paragraphe{
+.section-1,
+.section-3 {
+    .paragraphe {
         width: 60%;
     }
 }
+
 // ---------------------- end section-1 --------------------------
 // ---------------------- section-2 --------------------------
-.section-2{
-    background-image: url(../images/team_background.jpg); 
+.section-2 {
+    background-image: url(../images/team_background.jpg);
 }
+
 // ---------------------- end section-2 --------------------------
+// ---------------------- section-3 --------------------------
+.section-3 {
+    .image-forme {
+        background-image: url(../images/book_table_bg.jpg);
+        background-size: cover;
+        background-position: center;
+
+
+    }
+}
+
+// ---------------------- end section-3 --------------------------
 
 // ---------------------- section-4 --------------------------
-.section-4{
-    background-image: url(../images/testimonials_background.jpg); 
-    .client{
-        .image{
-            img{
+.section-4 {
+    background-image: url(../images/testimonials_background.jpg);
+
+    .client {
+        .image {
+            img {
                 height: 200px;
                 width: 200px;
                 border: solid 4px white;
-                border-radius: 50% ;
+                border-radius: 50%;
             }
         }
     }
 }
+
 // ---------------------- end section-4 --------------------------
 
 
 // media 4K
 @media (min-width: 2560px) {
+
     // ---------------------- section-1 --------------------------
-.section-1{
-    .titre{
-        h2{
-            font-size: 60px;
-        }
-    }
-    .images{
-        img{
-            width: 200px;
-            height: 200px;
-        }
-    }
-    .paragraphe{
-        font-size: 30px;
-    }
-}
-// ---------------------- end section-1 --------------------------
-// ---------------------- section-2 --------------------------
-.section-2{
-    .titre{
-        h2{
-            font-size: 60px;
-        }
-    }
-    .chef{
-        img{
-            width: 400px;
-            height: 500px;
-        }
-    }
-
-}
-// ---------------------- end section-2 --------------------------   
-// ----------------------  section-4 --------------------------   
-
-.section-4{
-    .titre{
-        h2{
-            font-size: 60px;
-        }
-    }
-    .client{
-        .image{
-            img{
-                width: 300px;
-                height: 300px;
+    .section-1,
+    .section-3 {
+        .titre {
+            h2 {
+                font-size: 60px;
             }
-        } 
-        .texte{
-            h4{
-                font-size: 35px;
-            }
-            p{
-                font-size: 30px;
-            }
-        }      
-    }
-
-}
-// ---------------------- end section-4 --------------------------  
-// ---------------------- section-5 --------------------------  
-.section-5{
-    .titre{
-        h2{
-            font-size: 60px;
         }
-    }
-    .contact{
-        i{
-            font-size: 80px !important;
 
+        .images {
+            margin-top: 80px !important;
+            img {
+                width: 200px;
+                height: 200px;
+            }
         }
-        p{
+
+        .paragraphe {
             font-size: 30px;
         }
+        .image-forme{
+            p{
+                font-size: 30px;
+
+            }
+        }
     }
-} 
-    
+
+    // ---------------------- end section-1 --------------------------
+    // ---------------------- section-2 --------------------------
+    .section-2 {
+        .titre {
+            h2 {
+                font-size: 60px;
+            }
+        }
+
+        .chef {
+            img {
+                width: 400px;
+                height: 500px;
+            }
+        }
+
+    }
+
+    // ---------------------- end section-2 --------------------------   
+    // ----------------------  section-4 --------------------------   
+
+    .section-4 {
+        .titre {
+            h2 {
+                font-size: 60px;
+            }
+        }
+
+        .client {
+            .image {
+                img {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+
+            .texte {
+                h4 {
+                    font-size: 35px;
+                }
+
+                p {
+                    font-size: 30px;
+                }
+            }
+        }
+
+    }
+
+    // ---------------------- end section-4 --------------------------  
+    // ---------------------- section-5 --------------------------  
+    .section-5 {
+        .titre {
+            h2 {
+                font-size: 60px;
+            }
+        }
+
+        .contact {
+            i {
+                font-size: 80px !important;
+
+            }
+
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+
 }
+
 // ---------------------- end section-5 --------------------------  
 
 // end media 4K
 // tablet
 @media (max-width: 1024px) {
-    .contact{
+    .contact {
         width: 50% !important;
     }
-    
+
 }
+
 // end tablet
 
 // telephone
 @media (max-width: 426px) {
-.section-1{
-    .titre{
-        img{
-            width: 100%;
-        }
-    }
-    .images{
-        img{
-            width: 80px;
-            height: 80px;
-        }
-    }
-    .paragraphe{
-        width: 80%;
-    }
-}
-.section-2{
-    .titre{
-        img{
-            width: 100%;
-        }
-    }
-}
-.section-4{
-    .titre{
-        img{
-            width: 100%;
-        }
-    }
-    .client{
-        .texte{
-            width: 80% !important;
-            text-align: center;
+
+    .section-1,
+    .section-3 {
+        .titre {
+            img {
+                width: 100%;
+            }
         }
 
-    }
-}
-.section-5{
-    .titre{
-        img{
-            width: 100%;
+        .images {
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+
+        .paragraphe {
+            width: 80%;
         }
     }
-    .contact{
-        width: 80% !important;
+
+    .section-2 {
+        .titre {
+            img {
+                width: 100%;
+            }
+        }
     }
+
+    .section-4 {
+        .titre {
+            img {
+                width: 100%;
+            }
+        }
+
+        .client {
+            .texte {
+                width: 80% !important;
+                text-align: center;
+            }
+
+        }
+    }
+
+    .section-5 {
+        .titre {
+            img {
+                width: 100%;
+            }
+        }
+
+        .contact {
+            width: 80% !important;
+        }
+    }
+
 }
-    
-}
+
 // end media telephone
