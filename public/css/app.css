@@ -20185,9 +20185,69 @@ main {
   width: 60%;
 }
 
+.section-2 {
+  background-image: url(../images/team_background.jpg);
+}
+
+.section-4 {
+  background-image: url(../images/testimonials_background.jpg);
+}
+.section-4 .client .image img {
+  height: 200px;
+  width: 200px;
+  border: solid 4px white;
+  border-radius: 50%;
+}
+
+@media (min-width: 2560px) {
+  .section-1 .titre h2, .section-1 .titre .h2 {
+    font-size: 60px;
+  }
+  .section-1 .images img {
+    width: 200px;
+    height: 200px;
+  }
+  .section-1 .paragraphe {
+    font-size: 30px;
+  }
+  .section-2 .titre h2, .section-2 .titre .h2 {
+    font-size: 60px;
+  }
+  .section-2 .chef img {
+    width: 400px;
+    height: 500px;
+  }
+  .section-4 .titre h2, .section-4 .titre .h2 {
+    font-size: 60px;
+  }
+  .section-4 .client .image img {
+    width: 300px;
+    height: 300px;
+  }
+  .section-4 .client .texte h4, .section-4 .client .texte .h4 {
+    font-size: 35px;
+  }
+  .section-4 .client .texte p {
+    font-size: 30px;
+  }
+  .section-5 .titre h2, .section-5 .titre .h2 {
+    font-size: 60px;
+  }
+  .section-5 .contact i {
+    font-size: 80px !important;
+  }
+  .section-5 .contact p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .contact {
+    width: 50% !important;
+  }
+}
 @media (max-width: 426px) {
   .section-1 .titre img {
-    width: 50%;
+    width: 100%;
   }
   .section-1 .images img {
     width: 80px;
@@ -20195,5 +20255,21 @@ main {
   }
   .section-1 .paragraphe {
     width: 80%;
+  }
+  .section-2 .titre img {
+    width: 100%;
+  }
+  .section-4 .titre img {
+    width: 100%;
+  }
+  .section-4 .client .texte {
+    width: 80% !important;
+    text-align: center;
+  }
+  .section-5 .titre img {
+    width: 100%;
+  }
+  .section-5 .contact {
+    width: 80% !important;
   }
 }

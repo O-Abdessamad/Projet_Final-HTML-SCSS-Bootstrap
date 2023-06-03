@@ -8,13 +8,130 @@ main {
         width: 60%;
     }
 }
-
 // ---------------------- end section-1 --------------------------
+// ---------------------- section-2 --------------------------
+.section-2{
+    background-image: url(../images/team_background.jpg); 
+}
+// ---------------------- end section-2 --------------------------
+
+// ---------------------- section-4 --------------------------
+.section-4{
+    background-image: url(../images/testimonials_background.jpg); 
+    .client{
+        .image{
+            img{
+                height: 200px;
+                width: 200px;
+                border: solid 4px white;
+                border-radius: 50% ;
+            }
+        }
+    }
+}
+// ---------------------- end section-4 --------------------------
+
+
+// media 4K
+@media (min-width: 2560px) {
+    // ---------------------- section-1 --------------------------
+.section-1{
+    .titre{
+        h2{
+            font-size: 60px;
+        }
+    }
+    .images{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .paragraphe{
+        font-size: 30px;
+    }
+}
+// ---------------------- end section-1 --------------------------
+// ---------------------- section-2 --------------------------
+.section-2{
+    .titre{
+        h2{
+            font-size: 60px;
+        }
+    }
+    .chef{
+        img{
+            width: 400px;
+            height: 500px;
+        }
+    }
+
+}
+// ---------------------- end section-2 --------------------------   
+// ----------------------  section-4 --------------------------   
+
+.section-4{
+    .titre{
+        h2{
+            font-size: 60px;
+        }
+    }
+    .client{
+        .image{
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        } 
+        .texte{
+            h4{
+                font-size: 35px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }      
+    }
+
+}
+// ---------------------- end section-4 --------------------------  
+// ---------------------- section-5 --------------------------  
+.section-5{
+    .titre{
+        h2{
+            font-size: 60px;
+        }
+    }
+    .contact{
+        i{
+            font-size: 80px !important;
+
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+} 
+    
+}
+// ---------------------- end section-5 --------------------------  
+
+// end media 4K
+// tablet
+@media (max-width: 1024px) {
+    .contact{
+        width: 50% !important;
+    }
+    
+}
+// end tablet
+
+// telephone
 @media (max-width: 426px) {
-   .section-1{
+.section-1{
     .titre{
         img{
-            width: 50%;
+            width: 100%;
         }
     }
     .images{
@@ -26,9 +143,38 @@ main {
     .paragraphe{
         width: 80%;
     }
+}
+.section-2{
+    .titre{
+        img{
+            width: 100%;
+        }
+    }
+}
+.section-4{
+    .titre{
+        img{
+            width: 100%;
+        }
+    }
+    .client{
+        .texte{
+            width: 80% !important;
+            text-align: center;
+        }
 
-
-   }
+    }
+}
+.section-5{
+    .titre{
+        img{
+            width: 100%;
+        }
+    }
+    .contact{
+        width: 80% !important;
+    }
+}
     
 }
 // end media telephone
