@@ -6,6 +6,10 @@ main {
 // ---------------------- section-1 --------------------------
 .section-1,
 .section-3 {
+    .feleuie{
+        width: 80% !important;
+
+    }
     .paragraphe {
         width: 60%;
     }
@@ -24,7 +28,30 @@ main {
         background-image: url(../images/book_table_bg.jpg);
         background-size: cover;
         background-position: center;
+    }
 
+
+    .blog {
+
+        .image_blog {
+            img {
+                height: 200px;
+                width: 380px;
+                border: solid 5px rgb(212, 212, 212);
+                border-radius: 10px;
+            }
+
+            position: relative;
+
+            .text_blog {
+                height: 50px;
+                width: 350px;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
 
     }
 }
@@ -55,7 +82,8 @@ main {
 
     // ---------------------- section-1 --------------------------
     .section-1,
-    .section-3 {
+    .section-3 { 
+        
         .titre {
             h2 {
                 font-size: 60px;
@@ -64,6 +92,7 @@ main {
 
         .images {
             margin-top: 80px !important;
+
             img {
                 width: 200px;
                 height: 200px;
@@ -73,11 +102,15 @@ main {
         .paragraphe {
             font-size: 30px;
         }
-        .image-forme{
-            p{
+
+        .image-forme {
+            p {
                 font-size: 30px;
 
             }
+        }
+        form {
+            width: 70%;
         }
     }
 
@@ -156,11 +189,29 @@ main {
 // ---------------------- end section-5 --------------------------  
 
 // end media 4K
+// media labtop L
+@media (max-width: 1441px){
+    .section-3{
+        form {
+            width: 70%;
+        }
+    }
+
+}
+// end media labtop L
+
 // tablet
 @media (max-width: 1024px) {
     .contact {
         width: 50% !important;
     }
+    .section-3{
+        form {
+            width: 100%;
+        }
+    }
+
+    
 
 }
 
@@ -187,6 +238,11 @@ main {
         .paragraphe {
             width: 80%;
         }
+        form {
+            width: 100% !important;
+        }
+
+        
     }
 
     .section-2 {
