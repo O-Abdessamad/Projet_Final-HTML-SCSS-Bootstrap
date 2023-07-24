@@ -31,11 +31,15 @@ header{
     }   
     // ----------------------end nav---------------
 }
-.border-end {
+.border-header {
     background-image: url(../images/bottom_decoration_img.png);
     background-repeat: repeat-x;
     height: 11px;
-    background-color: rgba(7, 7, 7, 0.861);  
+    background-color: #202120;
+    border: none;
+    margin-top: -1px;
+    margin-bottom: -1px;
+ 
 }
 // ---------------------- end header ---------------
 // media 4K
